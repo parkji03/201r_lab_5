@@ -1,0 +1,76 @@
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-image: url("background-photo.jpg");
+
+}
+
+a {
+	color: #00B7FF;
+}
+
+div#left {
+	float: left;
+	width: 50%;
+}
+
+div #right {
+	float: right;
+	width: 50%;
+}
+
+input#Name {
+	padding: 20px 10px;
+
+	
+}
+
+h1 {
+	color: white;
+}
+
+input#Comment {
+	padding: 20px 10px;
+
+}
+
+form#commentForm {
+	padding: 50px 50px;
+}
+
+form#rightForm {
+	padding: 50px 50px;
+}
+
+div#buttons {
+	padding: 10px 50px;
+}
+
+button {
+	padding: 20px 20px;
+}
+
+#json {
+	color: white;
+}
+
+#comments {
+	color: white;
+}
+
+
+li {
+	list-style-type: none;
+}
+
+div#json {
+	overflow-y: scroll;
+	height: 200px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+div#comments {
+	overflow-y: scroll;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.5);
+}

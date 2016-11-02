@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comments!</title>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="javascripts/comments.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+
+<body>
+	<div id="left">
+		<form id="commentForm" action="">
+			<label for="name"><h1>Name: </h1></label><input type="text" id="Name" placeholder="Name">
+			<label for="comment"><h1>Comment: </h1></label><input type="text" id="Comment" placeholder="Comment"><br>
+		</form>
+
+		<div id="buttons">
+			<button id="serialize">Serialize form values</button>
+			<button id="getThem">Get Comments</button>
+		</div>
+	</div>
+
+	<div id="right">
+		<form id="rightForm">
+		<h1>json Comments</h1>
+			<div id="json"></div>
+			<div id="done"></div>
+			<h1>Comments List</h1>
+			<div id="comments"></div>
+		</form>
+	</div>
+</body>
+</html>
